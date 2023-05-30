@@ -1,0 +1,13 @@
+On different power shell run : 
+
+1. on 1st powershell
+javac circleImpl.java
+javac *.java
+rmic circleImpl
+rmiregistry 5000
+
+2. on 2nd powershell
+java Server
+
+3. on 3rd 
+java client
